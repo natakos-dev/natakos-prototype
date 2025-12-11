@@ -35,8 +35,8 @@ Pastikan kamu udah install **Flutter SDK** terbaru. Belum punya? [Cek di sini du
 ### 2. Clone Project
 Download source code-nya ke kandang (folder) kamu:
 ```bash
-git clone https://github.com/username-kamu/kos_management.git
-cd kos_management
+git clone https://github.com/natakos-dev/natakos-prototype.git
+cd natakos-prototype
 ```
 
 ### 3. Install Paket
