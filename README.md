@@ -1,30 +1,91 @@
-# sikos
+# 🏠 SiKos - Manajemen Kos Anti Ribet
 
-A new Flutter project.
+Selamat datang di **SiKos**! Aplikasi manajemen rumah kos jaman now yang bikin hidup juragan kos makin santuy. Gak perlu lagi tuh buku catetan kucel atau pusing ngitung tagihan manual. Semua ada di genggaman! 🚀
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Fitur-Fitur Kece
 
-A few resources to get you started if this is your first Flutter project:
+Aplikasi ini gak cuma modal tampang doang, tapi isinya "daging" semua:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+*   📱 **Multi-Platform**: Jalan mulus di Android (dan soon di iOS & Web).
+*   🤖 **OCR KTP Pintar**: Males ngetik data penghuni? Foto aja KTP-nya, biar AI (Google ML Kit) yang ngerjain sisanya.
+*   💾 **Offline-First**: Internet mati? Tenang, data aman tersimpan lokal pake **Isar DB**. Begitu online, langsung sinkron!
+*   🔥 **Powered by Firebase**: Auth aman user, data tersimpan di Cloud Firestore, dan aset aman di Storage.
+*   ⚡ **State Management Modern**: Dibangun pake **Riverpod**, performa ngebut, kode rapi, minim bug.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack (Senjata Kita)
 
-## Configuration
+Kita pake teknologi paling hits di dunia Flutter:
+*   **Framework**: Flutter SDK 3.x
+*   **State Management**: Riverpod (Hooks & Annotation)
+*   **Database**: Isar (Lokal) & Firestore (Cloud)
+*   **Navigasi**: GoRouter
+*   **Utilities**: FPdart, Freezed, Json Serializable
 
-Create a .env file in the root directory with the following keys:
+---
 
-FIREBASE_API_KEY_WEB=...
-FIREBASE_APP_ID_WEB=...
-FIREBASE_AUTH_DOMAIN_WEB=...
-FIREBASE_API_KEY_ANDROID=...
-FIREBASE_APP_ID_ANDROID=...
-FIREBASE_MESSAGING_SENDER_ID=...
-FIREBASE_PROJECT_ID=...
-FIREBASE_STORAGE_BUCKET=...
+## 🚀 Cara Mulai (Gaspol!)
 
+Ikuti langkah-langkah simpel ini biar SiKos bisa jalan di laptop kamu:
+
+### 1. Persiapan
+Pastikan kamu udah install **Flutter SDK** terbaru. Belum punya? [Cek di sini dulu](https://docs.flutter.dev/get-started/install).
+
+### 2. Clone Project
+Download source code-nya ke kandang (folder) kamu:
+```bash
+git clone https://github.com/username-kamu/kos_management.git
+cd kos_management
+```
+
+### 3. Install Paket
+Panggil semua pasukan library yang kita butuhin:
+```bash
+flutter pub get
+```
+
+### 4. 🔑 Konfigurasi Rahasia (Wajib!)
+Aplikasi ini butuh "kunci" beneran buat nyambung ke Firebase. 
+Buat file baru bernama `.env` di folder paling luar (root directory), terus isi ginian:
+
+```env
+FIREBASE_API_KEY_WEB=isi_punya_kamu_disini
+FIREBASE_APP_ID_WEB=isi_punya_kamu_disini
+FIREBASE_AUTH_DOMAIN_WEB=isi_punya_kamu_disini
+FIREBASE_API_KEY_ANDROID=isi_punya_kamu_disini
+FIREBASE_APP_ID_ANDROID=isi_punya_kamu_disini
+FIREBASE_MESSAGING_SENDER_ID=isi_punya_kamu_disini
+FIREBASE_PROJECT_ID=isi_punya_kamu_disini
+FIREBASE_STORAGE_BUCKET=isi_punya_kamu_disini
+```
+
+> **Bingung dapetnya di mana?** Buka [Firebase Console](https://console.firebase.google.com/), masuk ke Project Settings, dan copas config-nya dari sana.
+
+### 5. Generate Code
+Karena kita pake `build_runner` buat generate kode-kode magis (Riverpod, Isar, Freezed), jalanin ini dulu:
+```bash
+dart run build_runner build --delete-conflicting-outputs
+```
+*(Atau pake `watch` kalau lagi mode ngoding)*
+
+### 6. Jalankan Aplikasi
+Tancap gas! 🏁
+```bash
+flutter run
+```
+
+---
+
+## 🤝 Mau Ikut Berkontribusi?
+
+Punya ide fitur gila atau nemu bug nyebelin?
+1.  **Fork** repo ini.
+2.  Bikin branch baru (`git checkout -b fitur-keren-bgt`).
+3.  Commit perubahanmu (`git commit -m 'Nambahin fitur keren banget'`).
+4.  Push ke branch (`git push origin fitur-keren-bgt`).
+5.  Bikin **Pull Request** dan colek kita!
+
+---
+
+*Dibuat dengan ☕ dan ❤️ oleh Tim SiKos.*
