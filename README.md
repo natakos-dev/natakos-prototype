@@ -1,6 +1,6 @@
-# 🏠 SiKos - Manajemen Kos Anti Ribet
+# 🏠 Natakos - Manajemen Kos Anti Ribet
 
-Selamat datang di **SiKos**! Aplikasi manajemen rumah kos jaman now yang bikin hidup juragan kos makin santuy. Gak perlu lagi tuh buku catetan kucel atau pusing ngitung tagihan manual. Semua ada di genggaman! 🚀
+Selamat datang di **Natakos**! Aplikasi manajemen rumah kos jaman now yang bikin hidup juragan kos makin santuy. Gak perlu lagi tuh buku catetan kucel atau pusing ngitung tagihan manual. Semua ada di genggaman! 🚀
 
 ---
 
@@ -27,7 +27,7 @@ Kita pake teknologi paling hits di dunia Flutter:
 
 ## 🚀 Cara Mulai (Gaspol!)
 
-Ikuti langkah-langkah simpel ini biar SiKos bisa jalan di laptop kamu:
+Ikuti langkah-langkah simpel ini biar Natakos bisa jalan di laptop kamu:
 
 ### 1. Persiapan
 Pastikan kamu udah install **Flutter SDK** terbaru. Belum punya? [Cek di sini dulu](https://docs.flutter.dev/get-started/install).
@@ -79,13 +79,8 @@ flutter run
 
 ## 🤝 Mau Ikut Berkontribusi?
 
-Punya ide fitur gila atau nemu bug nyebelin?
-1.  **Fork** repo ini.
-2.  Bikin branch baru (`git checkout -b fitur-keren-bgt`).
-3.  Commit perubahanmu (`git commit -m 'Nambahin fitur keren banget'`).
-4.  Push ke branch (`git push origin fitur-keren-bgt`).
-5.  Bikin **Pull Request** dan colek kita!
+Ada ide fitur atau nemu bug? Langsung aja buka issue baru atau kalau mau support ngopi kita, nanti kami sediakan link Saweria ngohehehe! 😉
 
 ---
 
-*Dibuat dengan ☕ dan ❤️ oleh Tim SiKos.*
+*Dibuat dengan ☕ dan ❤️ oleh Tim Natakos.*
